@@ -73,14 +73,29 @@ public class arcade {
 		
 	}
 	public static void game2() {
-		System.out.println("Game 2 is still in development....");		
-		System.out.println("If you would like to go back to the menu and select another game, type in 'menu'.... If you would like to leave, type in 'exit'.....");
-		Scanner su = new Scanner(System.in);
-		String yu = su.nextLine();
-		if(yu.equals("menu")) {
-			entermessage();
-		} else if(yu.equals("exit")) {
-			System.out.println("Thanks for playing! Your final score is: " + score);
+		System.out.println("This is the buzzfeed quiz game");
+		System.out.println("We are going to try and see what Harry Potter house you fall in!");
+		System.out.println("Alright, first question: Do you like horror movies? (yes/no)");
+		Scanner st = new Scanner(System.in);
+		String u = st.nextLine();
+		if(u.equals("yes")) {
+			System.out.println("Do you like sleeping in? (yes/no) ");
+			u = st.nextLine();
+			if(u.equals("yes")) {
+				System.out.println("You are a Slytherin!");
+			} else if(u.equals("no")) {
+				System.out.println("You are a Gryffindor!");
+			}
+		} else if(u.equals("no")) {
+			System.out.println("Do you like comedy movies (yes/no)");
+			u = st.nextLine();
+			if(u.equals("yes")) {
+				System.out.println("You are a Hufflepuff.");
+				
+			} else if(u.equals("no")) {
+				System.out.println("You are a Ravenclaw!");
+			}
+			
 		}
 	}
 	
