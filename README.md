@@ -1,7 +1,5 @@
-- 👋 Hi, I’m @shreyasvaid
-- 👀 I’m interested in ... learning java!
-- 🌱 I’m currently learning ... Python and Java!
-- 💞️ I’m looking to collaborate on ... different types of mini games and other projects.
+-This is a fun arcade where you can play a few simple games!
+
 
 <!---
 shreyasvaid/shreyasvaid is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
